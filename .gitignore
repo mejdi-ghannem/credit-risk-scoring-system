@@ -1,1 +1,5 @@
-/data/raw/*
+# Ignore all CSVs under data
+data/**/*.csv
+
+# Ignore Cache directories
+src/__pycache__/
